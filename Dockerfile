@@ -4,4 +4,4 @@ FROM synesthesiam/opentts:all
 EXPOSE 5500
 
 # Run the command to start your application
-CMD ["opentts", "--no-espeak"]
+CMD ["--no-espeak"]
